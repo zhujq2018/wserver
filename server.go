@@ -11,9 +11,9 @@ import (
 	"golang.org/x/net/websocket"
 )
 
-const port = "80"
+const port = "8080"
 const target = "127.0.0.1:22"
-const v2proxy = "127.0.0.1:8080"
+const v2proxy = "127.0.0.1:8081"
 
 type client struct {
 	listenChannel        chan bool       // Channel that the client is listening on
